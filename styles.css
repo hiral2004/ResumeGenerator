@@ -1,0 +1,66 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1{
+  color: blue;
+  text-decoration: underline;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: coral;
+}
+
+.container {
+width: 80%;
+margin: 0 auto;
+ text-align: center;
+    background-color: lightcyan; border-radius: 
+20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea, 
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 
+5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+#resumeOutput {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    background-color: #fff; 
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}s
